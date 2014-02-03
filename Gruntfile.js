@@ -8,11 +8,13 @@ module.exports = function(grunt) {
         modules: ['./macros/macro_for.js']
       },
       test: {
-        src: 'tests/*.js',
+      	expand: true,
+      	cwd: 'tests/',
+        src: ['*.js'],
         dest: 'output/'
       }
-    }
-    clean: 'output/'
+    },
+    clean: ['output/*.js']
   });
 
   grunt.loadNpmTasks('grunt-sweet.js');

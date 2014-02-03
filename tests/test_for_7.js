@@ -1,1 +1,1 @@
-for (i from a) if (i) alert(i);
+for (i from a) { if (i) alert(i); }
