@@ -1,0 +1,10 @@
+{
+  "name": "ejs",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "sweet.js": "~0.4.1",
+    "grunt-sweet.js": "~0.1.4",
+    "grunt-contrib-clean": "~0.5.0"
+  }
+}
